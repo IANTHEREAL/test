@@ -1,0 +1,38 @@
+{
+  "summary": "Implemented educational in-place quicksort algorithm in Python with comprehensive pytest test suite and documentation",
+  "export": {
+    "include_patterns": [
+      "**/*.py",
+      "**/*.md",
+      ".gitignore"
+    ],
+    "exclude_patterns": [
+      ".venv/**",
+      "venv/**",
+      "__pycache__/**",
+      ".pytest_cache/**",
+      ".git/**",
+      "*.pyc",
+      "*.tmp",
+      "worklog.md",
+      "code_review.log"
+    ]
+  },
+  "artifacts": [
+    {
+      "type": "application/python",
+      "path": "test/quicksort.py",
+      "description": "Educational in-place quicksort implementation with Lomuto partition scheme"
+    },
+    {
+      "type": "application/python",
+      "path": "test/tests/test_quicksort.py",
+      "description": "Comprehensive pytest test suite covering edge cases"
+    },
+    {
+      "type": "text/markdown",
+      "path": "worklog.md",
+      "description": "Implementation worklog and summary"
+    }
+  ]
+}
