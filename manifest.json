@@ -1,0 +1,44 @@
+{
+  "summary": "Educational quicksort Python implementation with TDD approach, comprehensive unit tests, and detailed documentation",
+  "export": {
+    "include_patterns": [
+      "test/**/*.py",
+      "test/**/*.md",
+      "test/tests/**"
+    ],
+    "exclude_patterns": [
+      "node_modules/**",
+      ".git/**",
+      "*.tmp",
+      "*.pyc",
+      "__pycache__/**",
+      "venv/**",
+      ".venv/**",
+      "*.log",
+      "worklog.md",
+      "code_review.log"
+    ]
+  },
+  "artifacts": [
+    {
+      "type": "text/markdown",
+      "path": "test/worklog.md",
+      "description": "TDD implementation worklog with test results"
+    },
+    {
+      "type": "text/markdown",
+      "path": "test/README.md",
+      "description": "Usage guide and documentation"
+    },
+    {
+      "type": "application/python",
+      "path": "test/quicksort.py",
+      "description": "Educational in-place quicksort implementation"
+    },
+    {
+      "type": "application/python",
+      "path": "test/tests/test_quicksort.py",
+      "description": "Comprehensive unit test suite (6 tests)"
+    }
+  ]
+}
