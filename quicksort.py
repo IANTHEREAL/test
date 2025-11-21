@@ -8,7 +8,7 @@ original input. When executed as a script it prints a short demonstration.
 from __future__ import annotations
 
 from collections.abc import Sequence
-from typing import List, TypeVar
+from typing import TypeVar
 
 T = TypeVar("T")
 
